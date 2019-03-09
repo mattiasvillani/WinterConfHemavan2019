@@ -26,7 +26,7 @@ Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2
 ##### Lecture 2 - Gaussian Process Regression. 
 
 Reading: [Slides](SLIDES) | Chapter 2 and 4-5 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
-Code: 
+Code: [GP for LIDAR data](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/GP4LidarData.R)
 
 ---
 
