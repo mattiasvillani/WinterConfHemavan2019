@@ -7,13 +7,13 @@ Material for my lectures on 'Bayesian Machine Learning' at the [Winter Conferenc
 
 ### About me
 [**Mattias Villani**](https://www.mattiasvillani.com/) \
-Professor of Statistics at Stockholm and Linköping University\
-Research interests: Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models.
-Current application areas: Transportation, Neuroimaging, Robotics, Econometrics, Software developement.
+**Who?** - Professor of Statistics at Stockholm and Linköping University.\
+**What?** - I develop computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
+**Who cares?** - Hopefully people in Transportation, Neuroimaging, Robotics, Econometrics and Software developement.
 
 ---
 
-##### Lecture 1 - Introduction. Regression.
+##### Lecture 1 - The Bayesics.
 
 Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
 Code: \
@@ -22,7 +22,7 @@ Software:
 
 ---
 
-##### Lecture 2 - Regression trees. Random Forest.
+##### Lecture 2 - Gaussian Process Regression.
 
 Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
 Code: \
@@ -31,7 +31,7 @@ Software:
 
 ---
 
-##### Lecture 3 - Model evaluation. Overfitting. Regularization.
+##### Lecture 3 - Gaussian Processes in Action.
 
 Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
 Code: \
@@ -40,14 +40,7 @@ Software:
 
 ---
 
-##### Computer Lab 1 - Regression. Predictive performance. Regularization.
-
-Lab: [Lab1](LAB) \
-Submission tool: [LISAM](LISAM)
-
----
-
-##### Lecture 4 - Maximum likelihood Learning. Bayesian learning.
+##### Lecture 4 - Bayesian Optimization.
 
 Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
 Code: \
@@ -55,3 +48,4 @@ Other material: \
 Software: 
 
 ---
+
