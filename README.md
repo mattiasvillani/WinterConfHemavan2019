@@ -39,7 +39,7 @@ Extras: [Searching drone video](https://www.youtube.com/watch?v=Ok3CE314mSQ)
 
 ##### Lecture 4 - Bayesian Optimization. 
 
-Reading: [Slides](SLIDES)  |  [Paper](https://arxiv.org/pdf/1206.2944.pdf)
+Reading: [Slides](SLIDES)  |  [Paper](https://arxiv.org/pdf/1206.2944.pdf) \
 Code: 
 
 ---
