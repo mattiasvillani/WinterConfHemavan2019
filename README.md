@@ -12,7 +12,6 @@ Material for my lectures on 'Bayesian Machine Learning' at the [Winter Conferenc
 **Application areas:** in Transportation, Neuroimaging, Robotics, Econometrics and Software developement.
 
 ---
-### Lectures
 
 ##### Lecture 1 - The Bayesics.
 
@@ -21,7 +20,7 @@ Code: \
 Other material: \
 Software:
 
---
+---
 
 ##### Lecture 2 - Gaussian Process Regression.
 
