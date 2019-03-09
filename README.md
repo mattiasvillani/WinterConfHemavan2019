@@ -1,11 +1,10 @@
-# Bayesian Machine Learning Lectures
+# Lectures on Bayesian Machine Learning
 Material for my lectures on 'Bayesian Machine Learning' at the [Winter Conference in Statistics](https://www.umu.se/en/winter-conference-in-statistics-2019/), [Hemavan](https://www.google.com/maps/place/920+66+Hemavan/@65.902074,6.1270886,5z/data=!4m5!3m4!1s0x4676882066e6040b:0xd2ce47df9c5d9884!8m2!3d65.814906!4d15.0876887), Sweden, March 11-14, 2019.
 
 
 
 ---
 
-### Me
 [**Mattias Villani**](https://www.mattiasvillani.com/) \
 **Position:** Professor of Statistics at Stockholm and Linköping University.\
 **Research:** Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
@@ -22,7 +21,7 @@ Code: \
 Other material: \
 Software:
 
----
+--
 
 ##### Lecture 2 - Gaussian Process Regression.
 
