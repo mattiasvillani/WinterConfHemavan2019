@@ -5,7 +5,7 @@
 
 ---
 
-[**Mattias Villani**](https://www.mattiasvillani.com/) \
+Lecturer: [**Mattias Villani**](https://www.mattiasvillani.com/) \
 **Positions:** Professor of Statistics at Stockholm and Linköping University.\
 **Research:** Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
 **Teaching:** Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
@@ -17,8 +17,6 @@
 
 Reading: [Slides](SLIDES) | Chapter 1 in [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732). \
 Code: \
-Other material: \
-Software:
 
 ---
 
@@ -38,10 +36,8 @@ Video: \
 
 ##### Lecture 4 - Bayesian Optimization. 
 
-Reading: [Slides](SLIDES)  \  [Paper](https://arxiv.org/pdf/1206.2944.pdf)
+Reading: [Slides](SLIDES)  |  [Paper](https://arxiv.org/pdf/1206.2944.pdf)
 Code: \
-Other material: \
-Software: 
 
 ---
 
