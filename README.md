@@ -7,12 +7,10 @@ Material for my lectures on 'Bayesian Machine Learning' at the [Winter Conferenc
 
 ### About me
 [**Mattias Villani**](https://www.mattiasvillani.com/) \
-**Who?** \ 
-Professor of Statistics at Stockholm and Linköping University.\
-**What?** \ 
-Research: Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
-Teaching: courses in Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
-**Why?** - Applications in Transportation, Neuroimaging, Robotics, Econometrics and Software developement.
+**Position** Professor of Statistics at Stockholm and Linköping University.\
+**Research:** Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
+**Teaching:** Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
+**Application areas** in Transportation, Neuroimaging, Robotics, Econometrics and Software developement.
 
 ---
 
