@@ -11,8 +11,8 @@
 **Teaching:** Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
 **Current Application Areas:** Transportation, Neuroimaging, Robotics, Econometrics and Software developement. \
 **Web:** Web page \
-**Google Scholar:** \
-**Genealogy:** [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=104187) \
+**Google Scholar:** [Profile](https://scholar.google.se/citations?user=lyW8fWYAAAAJ&hl=sv) \
+**Genealogy:** [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=104187) 
 
 ---
 
