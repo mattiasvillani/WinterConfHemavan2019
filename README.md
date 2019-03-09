@@ -9,7 +9,7 @@
 **Positions:** Professor of Statistics at Stockholm and Linköping University.\
 **Research:** Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
 **Teaching:** Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
-**Current Application Areas:** Transportation, Neuroimaging, Robotics, Econometrics and Software developement. \
+**Current Application Areas:** Transportation, Neuroimaging, Robotics, Econometrics and Software Developement. \
 **Web:** [Web page](https://www.mattiasvillani.com/) \
 **Google Scholar:** [Profile](https://scholar.google.se/citations?user=lyW8fWYAAAAJ&hl=sv) \
 **Genealogy:** [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=104187) 
@@ -19,28 +19,28 @@
 ##### Lecture 1 - The Bayesics.
 
 Reading: [Slides](SLIDES) | Chapter 1 in [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732). \
-Code: \
+Code: 
 
 ---
 
 ##### Lecture 2 - Gaussian Process Regression. 
 
 Reading: [Slides](SLIDES) | Chapter 2 and 4-5 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
-Code: \
+Code: 
 
 ---
 
 ##### Lecture 3 - Gaussian Processes in Action. 
 
 Reading: [Slides](SLIDES) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
-Video: \
+Extras: [Searching drone video](https://www.youtube.com/watch?v=Ok3CE314mSQ)
 
 ---
 
 ##### Lecture 4 - Bayesian Optimization. 
 
 Reading: [Slides](SLIDES)  |  [Paper](https://arxiv.org/pdf/1206.2944.pdf)
-Code: \
+Code: 
 
 ---
 
