@@ -14,10 +14,10 @@ x = distance
 y = logratio
 
 # Prior hyperparameters
-sigmaNoise = 0.1 # Noise standard deviation
-sigmaf = 0.5     # prior stdev for f
-ell = 0.5          # length scale in kernel
-kernelName = "Matern32" # Kernel function. Options: Matern32
+sigmaNoise = 0.05 # Noise standard deviation
+sigmaf = 0.5      # prior stdev for f
+ell = 1           # length scale in kernel
+kernelName = "Matern32" # Kernel function. Options: "Matern32", "SquaredExp".
 
 ####################################
 # Setting path, loading packages, color settings
@@ -26,7 +26,7 @@ setwd('~/Dropbox/Teaching/WinterConfHemavan2019/')
 
 #install.packages("kernlab")
 #install.packages("mvtnorm")
-library(kernlab)
+library(kernlab) # Used to compute the covariance matrix K from a kernel function k(x',x)
 library(mvtnorm)
 
 #install.packages("RColorBrewer")
@@ -41,8 +41,21 @@ cexLabDef = 1.5            # Default scaling of font size labels
 cexAxisDef = 1             # Default scaling of tick labels
 
 #####################################
-# Defining the Matern32 kernel for Kernlab package
+# Defining the kernel
 ####################################
+if (strcmpi(kernelName,"SquaredExp")){
+  k <- function(sigmaf = 1, ell = 1)  
+  {   
+    rval <- function(x, y = NULL) 
+    {       
+      r = sqrt(crossprod(x-y))       
+      return(sigmaf^2*exp(-r^2/(2*ell^2)))     
+    }   
+    class(rval) <- "kernel"   
+    return(rval) 
+  }
+}
+
 if (strcmpi(kernelName,"Matern32")){
   k <- function(sigmaf = 1, ell = 1)  
   {   
