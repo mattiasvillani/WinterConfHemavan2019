@@ -33,7 +33,6 @@ Code:
 ##### Lecture 3 - Gaussian Processes in Action. 
 
 Reading: [Slides](SLIDES) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
-[comment]: <> (Extras: [Searching drone video](https://www.youtube.com/watch?v=Ok3CE314mSQ))
 
 ---
 
