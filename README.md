@@ -6,43 +6,39 @@
 ---
 
 [**Mattias Villani**](https://www.mattiasvillani.com/) \
-**Position:** Professor of Statistics at Stockholm and Linköping University.\
+**Positions:** Professor of Statistics at Stockholm and Linköping University.\
 **Research:** Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
 **Teaching:** Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
-**Application areas:** in Transportation, Neuroimaging, Robotics, Econometrics and Software developement.
+**Current Application Areas:** Transportation, Neuroimaging, Robotics, Econometrics and Software developement.
 
 ---
 
 ##### Lecture 1 - The Bayesics.
 
-Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
+Reading: [Slides](SLIDES) | Chapter 1 in [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732). \
 Code: \
 Other material: \
 Software:
 
 ---
 
-##### Lecture 2 - Gaussian Process Regression.
+##### Lecture 2 - Gaussian Process Regression. 
 
-Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
+Reading: [Slides](SLIDES) | Chapter 2 and 4-5 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
 Code: \
-Other material: \
-Software:
 
 ---
 
-##### Lecture 3 - Gaussian Processes in Action.
+##### Lecture 3 - Gaussian Processes in Action. 
 
-Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
-Code: \
-Other material: \
-Software: 
+Reading: [Slides](SLIDES) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
+Video: \
 
 ---
 
-##### Lecture 4 - Bayesian Optimization.
+##### Lecture 4 - Bayesian Optimization. 
 
-Reading: [Slides](SLIDES) | Chapters X.X-Y.Y in [Book Name](book). \
+Reading: [Slides](SLIDES)  \  [Paper](https://arxiv.org/pdf/1206.2944.pdf)
 Code: \
 Other material: \
 Software: 
