@@ -26,7 +26,7 @@ Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2
 ##### Lecture 2 - Gaussian Process Regression 
 
 Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture2.pdf) | Chapter 2 and 4-5 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
-Code: [GP for LIDAR data](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/GP4LidarData.R)
+Code: [GP for LIDAR data](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/GP4LidarData.R) | [demo hyperparameter optimization Python](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/hyperParamOptimDemo.py)
 
 ---
 

@@ -8,6 +8,7 @@ from autograd.numpy.linalg import solve
 import autograd.scipy.stats.multivariate_normal as mvn
 from autograd import value_and_grad
 from scipy.optimize import minimize
+import pandas as pd
 
 
 def make_gp_funs(cov_func, num_cov_params):
@@ -67,6 +68,10 @@ if __name__ == '__main__':
         make_gp_funs(rbf_covariance, num_cov_params=D + 1)
 
     X, y = build_toy_dataset(D=D)
+    #data = np.genfromtxt("../Data/LidarData.dat", delimiter='')
+    #y = data[1:,0]
+    #X = data[1:,1]
+    
     objective = lambda params: -log_marginal_likelihood(params, X, y)
 
     # Set up figure.
@@ -107,4 +112,4 @@ if __name__ == '__main__':
     print("Optimizing covariance parameters...")
     cov_params = minimize(value_and_grad(objective), init_params, jac=True,
                           method='CG', callback=callback)
-    plt.pause(10.0)
+    plt.pause(20.0)
