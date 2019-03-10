@@ -16,8 +16,8 @@ y = logratio
 # Prior hyperparameters
 sigmaNoise = 0.05 # Noise standard deviation
 sigmaf = 0.5      # prior stdev for f
-ell = 1           # length scale in kernel
-kernelName = "Matern32" # Kernel function. Options: "Matern32", "SquaredExp".
+ell = 0.2           # length scale in kernel
+kernelName = "SquaredExp" # Kernel function. Options: "Matern32", "SquaredExp".
 
 ####################################
 # Setting path, loading packages, color settings
@@ -88,8 +88,8 @@ for (z in zGrid){
   covs[count] <- kernelFunc(0,z)/(sigmaf^2)
 }
 par(cex.lab=cexLabDef, cex.axis = cexAxisDef)
-plot(zGrid, covs, axes = FALSE, type = "l", xlab = "ell", col = plotColors[2], 
-     lwd = lwdDef, main = "Correlation function")
+plot(zGrid, covs, axes = FALSE, type = "l", xlab = "|x'-x|", ylab = "Correlation", 
+     col = plotColors[2], lwd = lwdDef, main = paste("Length scale = ",ell))
 axis(side = 1, at = seq(0, 1, by = 0.2))
 axis(side = 2, at = seq(0, 1, by = 0.2), pos = -0.05)
 
@@ -120,7 +120,7 @@ lines(xs, meanPred + 1.96*sqrt(diag(Covf)), lwd = lwdDef, col = plotColors[2])
 lines(xs, meanPred - 1.96*sqrt((diag(Covf) + sigmaNoise^2)), lwd = lwdDef,col = plotColors[1])
 lines(xs, meanPred + 1.96*sqrt((diag(Covf) + sigmaNoise^2)), lwd = lwdDef, col = plotColors[1])
 
-legend("topright", inset = 0.00, legend = c("data","post mean","95% intervals for f", "95% predictive intervals for y"), 
+legend("bottomleft", inset = 0.03, legend = c("data","post mean","95% intervals for f", "95% predictive intervals for y"), 
        col = c("black", plotColors[6], plotColors[2], plotColors[1]), 
        pch = c('o',NA,NA,NA), lty = c(NA,1,1,1), lwd = 2, cex = 0.8)
 

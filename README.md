@@ -16,30 +16,30 @@
 
 ---
 
-##### Lecture 1 - The Bayesics.
+##### Lecture 1 - The Bayesics
 
 Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture1.pdf) | Chapter 1 in [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732). \
 Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/FindMaxDose.R)
 
 ---
 
-##### Lecture 2 - Gaussian Process Regression. 
+##### Lecture 2 - Gaussian Process Regression 
 
 Reading: [Slides](SLIDES) | Chapter 2 and 4-5 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
 Code: [GP for LIDAR data](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/GP4LidarData.R)
 
 ---
 
-##### Lecture 3 - Gaussian Processes in Action. 
+##### Lecture 3 - Making Use of Gaussian Processes
 
-Reading: [Slides](SLIDES) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
+Reading: [Slides](SLIDES) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) | [BayesOpt Paper](https://arxiv.org/pdf/1206.2944.pdf). \
 
 ---
 
-##### Lecture 4 - Bayesian Optimization. 
+##### Lecture 4 - Topic Models for Text 
 
-Reading: [Slides](SLIDES)  |  [Paper](https://arxiv.org/pdf/1206.2944.pdf) \
-Code: 
+Reading: [Slides](SLIDES)  | [original topic model article](http://www.cs.columbia.edu/~blei/papers/BleiNgJordan2003.pdf)  | [Topic model intro](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf) | [Intro PhD thesis Måns Magnusson](http://liu.diva-portal.org/smash/get/diva2:1201965/FULLTEXT01.pdf)\
+Code:  
 
 ---
 
