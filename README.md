@@ -19,27 +19,30 @@
 ##### Lecture 1 - The Bayesics
 
 Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture1.pdf) | Chapter 1 in [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732). \
-Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/FindMaxDose.R)
+Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/FindMaxDose.R) | [RStan](https://mc-stan.org/users/interfaces/rstan)
 
 ---
 
 ##### Lecture 2 - Gaussian Process Regression 
 
 Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture2.pdf) | Chapter 2 and 4-5 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf). \
-Code: [GP for LIDAR data](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/GP4LidarData.R) | [demo hyperparameter optimization Python](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/hyperParamOptimDemo.py)
+Code: [GP for LIDAR data](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/GP4LidarData.R) | [demo hyperparameter optimization Python](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/hyperParamOptimDemo.py) \
+Software: [GP fit package R](https://cran.r-project.org/web/packages/GPfit/index.html) | [GPStuff for Matlab](https://github.com/gpstuff-dev/gpstuff) | [GPy for Python](https://github.com/SheffieldML/GPy)
+
 
 ---
 
 ##### Lecture 3 - Making Use of Gaussian Processes
 
-Reading: [Slides](SLIDES) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) | [BayesOpt Paper](https://arxiv.org/pdf/1206.2944.pdf). 
+Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture3.pdf) | Chapter 3 in [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) | [BayesOpt Paper](https://arxiv.org/pdf/1206.2944.pdf). \
+Software: [rBayesianOptimization package R](https://cran.r-project.org/web/packages/rBayesianOptimization/index.html) | [GPyOpt](https://sheffieldml.github.io/GPyOpt/) | [bayesopt Matlab](https://www.mathworks.com/help/stats/bayesopt.html)
 
 ---
 
 ##### Lecture 4 - Topic Models for Text 
 
 Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture4.pdf)  | [original topic model article](http://www.cs.columbia.edu/~blei/papers/BleiNgJordan2003.pdf)  | [Topic model intro](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf) | [Intro PhD thesis Måns Magnusson](http://liu.diva-portal.org/smash/get/diva2:1201965/FULLTEXT01.pdf)\
-Code:  
+Software: [R package topic models](https://cran.r-project.org/web/packages/topicmodels/index.html)
 
 ---
 
