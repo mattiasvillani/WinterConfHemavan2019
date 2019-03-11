@@ -19,7 +19,8 @@
 ##### Lecture 1 - The Bayesics
 
 Reading: [Slides](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Slides/Lecture1.pdf) | Chapter 1 in [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732). \
-Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/FindMaxDose.R) | [RStan](https://mc-stan.org/users/interfaces/rstan)
+Code: [Bayesian regression](https://github.com/mattiasvillani/WinterConfHemavan2019/raw/master/Code/FindMaxDose.R) \
+Software: [RStan](https://mc-stan.org/users/interfaces/rstan)
 
 ---
 
