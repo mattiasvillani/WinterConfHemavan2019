@@ -9,7 +9,7 @@
 **Positions:** Professor of Statistics at Stockholm and Linköping University.\
 **Research:** Computationally efficient Bayesian methods for inference, prediction and decision making with flexible probabilistic models. \
 **Teaching:** Bayesian Learning, Introduction to Machine Learning, Advanced Machine Learning, Text Mining, Machine Learning for Industry, Probability and Statistics for Machine Learning etc \
-**Current Application Areas:** Transportation, Neuroimaging, Robotics, Econometrics and Software Developement. \
+**Current Application Areas:** Transportation, Neuroimaging, Robotics, Econometrics and Software Development. \
 **Web:** [Web page](https://www.mattiasvillani.com/) \
 **Google Scholar:** [Profile](https://scholar.google.se/citations?user=lyW8fWYAAAAJ&hl=sv) \
 **Genealogy:** [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=104187) 
