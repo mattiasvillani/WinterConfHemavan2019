@@ -4,6 +4,7 @@
 # http://mattiasvillani.com
 ##############################################################################
 
+
 ####################################
 # User settings
 ####################################
@@ -15,9 +16,10 @@ y = logratio
 
 # Prior hyperparameters
 sigmaNoise = 0.05 # Noise standard deviation
-sigmaf = 0.5      # prior stdev for f
-ell = 0.2           # length scale in kernel
-kernelName = "SquaredExp" # Kernel function. Options: "Matern32", "SquaredExp".
+sigmaf = 0.4 #0.5      # prior stdev for f
+ell = 0.3# 0.2           # length scale in kernel
+kernelName = "Matern32" # Kernel function. Options: "Matern32", "SquaredExp".
+priorMean = rep(0,length(y)) # Prior mean must be zero in this code. Sorry!
 
 ####################################
 # Setting path, loading packages, color settings
@@ -26,11 +28,14 @@ setwd('~/Dropbox/Teaching/WinterConfHemavan2019/')
 
 #install.packages("kernlab")
 #install.packages("mvtnorm")
+#install.packages("pracma")
+#install.packages("spatstat")
+#install.packages("RColorBrewer")
 library(kernlab) # Used to compute the covariance matrix K from a kernel function k(x',x)
 library(mvtnorm)
-
-#install.packages("RColorBrewer")
-library("RColorBrewer")
+library(pracma)
+library(spatstat)
+library(RColorBrewer)
 plotColors = brewer.pal(12, "Paired")
 pointColor = plotColors[5] # Color for single dots
 lwdDef = 3                 # Default line thickness
@@ -94,6 +99,7 @@ axis(side = 1, at = seq(0, 1, by = 0.2))
 axis(side = 2, at = seq(0, 1, by = 0.2), pos = -0.05)
 
 # Compute the covariance matrix Cov(f)
+
 xs = seq(min(x),max(x), length.out = 100)
 n <- length(x)
 Kss <- kernelMatrix(kernel = kernelFunc, x = xs, y = xs)
@@ -124,3 +130,39 @@ legend("bottomleft", inset = 0.03, legend = c("data","post mean","95% intervals 
        col = c("black", plotColors[6], plotColors[2], plotColors[1]), 
        pch = c('o',NA,NA,NA), lty = c(NA,1,1,1), lwd = 2, cex = 0.8)
 
+# Define the log marginal likelihood function
+logMargLike <- function(logTheta, y, x, k, priorMean, sigmaNoise, verbose){
+  kernelFunc <- k(sigmaf = exp(logTheta[1]), ell = exp(logTheta[2]))
+  K <- kernelMatrix(kernel = kernelFunc, x = x, y = x)
+  n <- length(y)
+  lml = dmvnorm(x = y, mean = priorMean, 
+                        sigma = K + sigmaNoise^2*diag(n), log = TRUE)
+  if (verbose) print( c(exp(logTheta[1]),exp(logTheta[2]),lml))
+  return(lml)
+}
+
+nTrain <- length(y)
+initVal = c(log(sigmaf),log(ell))
+# Optimize the marginal likelihood
+OptimResults<-optim(initVal, logMargLike, gr=NULL, y, x, k, priorMean, 
+                    sigmaNoise, verbose = TRUE, method=c("BFGS"), control=list(fnscale=-1), 
+                    hessian=TRUE)
+theta = exp(OptimResults$par)
+print(theta)
+
+# Plotting the log marginal likelihood in (sigmaf,ell)-space
+# Uncomment if you have the time!
+# sigmafs = seq(0.01,1,length = 50)
+# ells = seq(0.01,1,length = 50)
+# logMargLikes = matrix(NA, length(sigmafs), length(ells))
+# countSigmaf = 0
+# for (sigmaf in sigmafs){
+#   print(paste("sigmaf = ", sigmaf))
+#   countSigmaf = countSigmaf + 1
+#   countEll = 0
+#   for (ell in ells){
+#     countEll = countEll + 1
+#     theta = c(sigmaf,ell)
+#     logMargLikes[countSigmaf, countEll] = logMargLike(log(theta), y, x, k, priorMean, sigmaNoise, verbose = FALSE)
+#   }
+# }
